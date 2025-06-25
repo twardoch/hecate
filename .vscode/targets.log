@@ -1,0 +1,1043 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Apr 11 12:55:57 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 154)
+ 
+ORIGIN := @loader_path
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+ZENCLI_REPONAME = fl
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 16)
+DEBUG_BUILD_DIR := .build_debug
+# makefile (from `Makefile', line 44)
+CXX_SRCS := src/hecate/hecate_highlight.cpp src/hecate/gflseg.cpp src/hecate/video_parser.cpp src/hecate/hecate_main.cpp src/hecate/hecate_thumbnail.cpp
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile (from `Makefile', line 153)
+DYNAMIC_FLAGS := -install_name @rpath/libhecate.so
+# makefile
+CURDIR := /Users/adam/Developer/vcs/github.twardoch/pub/hecate
+# makefile
+SHELL = /bin/sh
+# makefile (from `Makefile.config', line 20)
+Q = @
+# environment
+ZENCLI_REPOOWNER = Fontlab
+# environment
+_ = /usr/bin/make
+# environment
+GOOGLE_APPLICATION_CREDENTIALS = /Users/adam/Documents/_Personal/_Settings/Google/latofonts-9533ccfd4b9f.json
+# environment
+GITHUB_TOKEN = 3e2d513663ac389a3262755149f04474538ccc68
+# makefile (from `.build_release/src/hecate/hecate_thumbnail.d', line 1)
+MAKEFILE_LIST :=  Makefile Makefile.config .build_release/src/hecate/hecate_highlight.d .build_release/src/hecate/gflseg.d .build_release/src/hecate/video_parser.d .build_release/src/hecate/hecate_main.d .build_release/src/hecate/hecate_thumbnail.d
+# environment
+JAVA_HOME = /Library/Java/JavaVirtualMachines/openjdk-13.0.2.jdk/Contents/Home
+# environment
+VSCODE_NODE_CACHED_DATA_DIR = /Users/adam/Library/Application Support/Code - Insiders/CachedData/845efe5d8e31079cc858131c95c36103d9439e74
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# makefile (from `Makefile', line 19)
+DEBUG = 0
+# environment
+NCURSES_NO_UTF8_ACS = 1
+# makefile (from `Makefile', line 178)
+CXXFLAGS = -MMD -MP -pthread -fPIC $(COMMON_FLAGS) $(WARNINGS)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `Makefile', line 69)
+TOOL_OBJS := .build_release/src/tools/hecate.o
+# environment
+__CFBundleIdentifier = com.microsoft.VSCodeInsiders
+# makefile (from `Makefile', line 113)
+DISTRIBUTE_SUBDIRS := /usr/local/bin /usr/local/lib
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/05/clcynl0509ldxltl599hhhx40000gn/T/vscode-ipc-1868de5c-1161-49a9-9e30-376024d6db74.sock
+# environment
+VSCODE_CWD = /
+# makefile (from `Makefile', line 93)
+INCLUDE_DIRS := /usr/local/opt/opencv@2/include /usr/local/include .build_release/src ./include
+# environment
+GUILE_SYSTEM_EXTENSIONS_PATH = /usr/local/lib/guile/3.0/extensions
+# environment
+PATH = /usr/local/opt/ruby/bin:/Users/adam/.npm-packages/bin:/opt/local/bin:/opt/local/sbin:/usr/local/sbin:/usr/local/opt/apr/bin:/usr/local/opt/curl/bin:/usr/local/opt/gnu-getopt/bin:/usr/local/opt/unzip/bin:/usr/local/opt/sqlite/bin:/usr/local/opt/libxml2/bin:/usr/local/opt/libiconv/bin:/usr/local/opt/icu4c/sbin:/usr/local/opt/icu4c/bin:/usr/local/opt/gpg-agent/bin:/usr/local/opt/gnu-getopt/bin:/usr/local/opt/gettext/bin:/usr/local/opt/dirmngr/bin:/usr/local/opt/curl/bin:/usr/local/opt/bison/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/X11/bin:/Library/Apple/usr/bin:/Users/adam/bin:/Users/adam/bin/myfonts:/Users/adam/bin/mti:/Users/adam/bin/pdftron:/Users/adam/bin/fontlab:/Users/adam/go/bin:/Users/adam/.cargo/bin:/Applications/CrossOver.app/Contents/SharedSupport/CrossOver/bin:/Users/adam/.composer/vendor/bin:/Library/TeX/texbin:/Users/adam/.local/bin:/Users/adam/bin/python:/Users/adam/Library/Python/3.9/bin:/Users/adam/Library/Python/2.7/bin:/usr/local/lib/ruby/gems/3.0.0/bin
+# makefile (from `Makefile', line 33)
+LIB_BUILD_DIR := .build_release/lib
+# environment
+LSCOLORS = gxFxCxDxBxegedabagacad
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from `Makefile', line 1)
+PROJECT := hecate
+# makefile (from `Makefile', line 51)
+TOOL_SRCS := src/tools/hecate.cpp
+# environment
+GOPATH = /Users/adam/go
+# environment
+VSCODE_LOG_STACK = true
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile.config', line 14)
+DISTRIBUTE_DIR := /usr/local
+# makefile (from `Makefile', line 181)
+LDFLAGS = $(foreach librarydir,$(LIBRARY_DIRS),-L$(librarydir)) $(PKG_CONFIG) $(foreach library,$(LIBRARIES),-l$(library))
+# environment
+ZENCLI_ZENHUBAUTHTOKEN = 1a2456155a90e246223dfd6a8e13b476744194ce838508ff13613f499114cfb715d4c4ec77404d6d
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+HOMEBREW_GITHUB_API_TOKEN = d6da92c6a7aaee90362079c1a826991dace75601
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Gm4VSGXVkd/Listeners
+# makefile (from `Makefile', line 3)
+CONFIG_FILE := Makefile.config
+# automatic
+%F = $(notdir $%)
+# environment
+GOBIN = /Users/adam/go/bin
+# environment
+DISPLAY = /private/tmp/com.apple.launchd.vfDAwKiHfR/org.xquartz:0
+# environment
+PDFLIBLICENSEFILE = /Users/adam/bin/pdflib/licensekeys.txt
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 66)
+OBJS := .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o
+# makefile (from `Makefile', line 29)
+SRC_DIRS := src/tools src/hecate
+# environment
+PWD = /Users/adam/Developer/vcs/github.twardoch/pub/hecate
+# makefile (from `Makefile', line 13)
+RELEASE_BUILD_DIR := .build_release
+# makefile (from `Makefile', line 171)
+LIBRARY_DIRS := /usr/local/opt/opencv@2/lib /usr/local/lib .build_release/lib
+# environment
+PKG_CONFIG_PATH = :/lib/pkgconfig:/usr/local/opt/pixman/lib/pkgconfig:/usr/local/opt/fontconfig/lib/pkgconfig:/usr/local/opt/freetype/lib/pkgconfig:/usr/local/opt/libpng/lib/pkgconfig:/usr/X11/lib/pkgconfig:/opt/X11/lib/pkgconfig:/usr/local/Cellar/libffi/3.0.13/lib/pkgconfig:/lib/pkgconfig:/usr/lib/pkgconfig:/usr/local/opt/pixman/lib/pkgconfig:/usr/local/opt/fontconfig/lib/pkgconfig:/usr/local/opt/freetype/lib/pkgconfig:/usr/local/opt/libpng/lib/pkgconfig:/usr/X11/lib/pkgconfig:/opt/X11/lib/pkgconfig:/usr/local/opt/libffi/lib/pkgconfig:/usr/local/opt/icu4c/lib/pkgconfig
+# makefile (from `Makefile', line 132)
+OSX := 1
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /Users/adam/.npm-packages/share/man:/usr/local/share/man:/usr/share/man:/opt/X11/share/man:/Library/Apple/usr/share/man:/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/share/man:/Applications/Xcode.app/Contents/Developer/usr/share/man:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/share/man
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/adam
+# makefile (from `Makefile', line 85)
+ALL_CXX_WARNS := .build_release/src/hecate/hecate_highlight.o.warnings.txt .build_release/src/hecate/gflseg.o.warnings.txt .build_release/src/hecate/video_parser.o.warnings.txt .build_release/src/hecate/hecate_main.o.warnings.txt .build_release/src/hecate/hecate_thumbnail.o.warnings.txt .build_release/src/tools/hecate.o.warnings.txt
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+LOGNAME = adam
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `Makefile.config', line 10)
+PREFIX := /usr/local
+# environment
+WORKON_HOME = /Users/adam/.virtualenvs
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 55)
+BUILD_INCLUDE_DIR := .build_release/src
+# environment
+MAKELEVEL := 0
+# environment
+ZENCLI_GITHUBAUTHTOKEN = 3e2d513663ac389a3262755149f04474538ccc68
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 11)
+BUILD_DIR_LINK := build
+# makefile (from `Makefile', line 179)
+LINKFLAGS = -pthread -fPIC $(COMMON_FLAGS) $(WARNINGS)
+# environment
+GUILE_LOAD_PATH = /usr/local/share/guile/site/3.0
+# makefile (from `Makefile', line 24)
+BUILD_DIR := .build_release
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = adam
+# makefile (from `Makefile', line 119)
+ 
+ALL_BUILD_DIRS := .build_release .build_release/lib .build_release/src/hecate .build_release/src/tools
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 128)
+UNAME := Darwin
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# makefile (from `Makefile', line 34)
+STATIC_NAME := .build_release/lib/libhecate.a
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/05/clcynl0509ldxltl599hhhx40000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+NODE_PATH = /Users/adam/.npm-packages/lib/node_modules
+# environment
+VSCODE_IPC_HOOK = /Users/adam/Library/Application Support/Code - Insiders/1.56.0-insider-main.sock
+# makefile (from `Makefile', line 82)
+WARNS_EXT := warnings.txt
+# makefile
+MAKEFLAGS = Rrqp
+# makefile (from `Makefile', line 65)
+CXX_OBJS := .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `Makefile', line 25)
+OTHER_BUILD_DIR := .build_debug
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCodeInsiders.79303563.79303569
+# makefile (from `Makefile', line 87)
+NONEMPTY_WARN_REPORT := .build_release/warnings.txt
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 83)
+CXX_WARNS := .build_release/src/hecate/hecate_highlight.o.warnings.txt .build_release/src/hecate/gflseg.o.warnings.txt .build_release/src/hecate/video_parser.o.warnings.txt .build_release/src/hecate/hecate_main.o.warnings.txt .build_release/src/hecate/hecate_thumbnail.o.warnings.txt
+# automatic
++F = $(notdir $+)
+# environment
+GUILE_TLS_CERTIFICATE_DIRECTORY = /usr/local/etc/gnutls/
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 86)
+ALL_WARNS := .build_release/src/hecate/hecate_highlight.o.warnings.txt .build_release/src/hecate/gflseg.o.warnings.txt .build_release/src/hecate/video_parser.o.warnings.txt .build_release/src/hecate/hecate_main.o.warnings.txt .build_release/src/hecate/hecate_thumbnail.o.warnings.txt .build_release/src/tools/hecate.o.warnings.txt
+# makefile (from `Makefile', line 100)
+WARNINGS := -Wall -Wno-sign-compare
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 151)
+CXX := /usr/bin/clang++
+# makefile (from `Makefile', line 177)
+COMMON_FLAGS = -std=c++0x -DNDEBUG -O2 $(foreach includedir,$(INCLUDE_DIRS),-I$(includedir))
+# makefile (from `Makefile', line 35)
+DYNAMIC_NAME := .build_release/lib/libhecate.so
+# environment
+LC_ALL = en_US.UTF-8
+# makefile (from `Makefile', line 95)
+LIBRARIES = opencv_core opencv_highgui opencv_imgproc
+# environment
+GUILE_LOAD_COMPILED_PATH = /usr/local/lib/guile/3.0/site-ccache
+# automatic
+^F = $(notdir $^)
+# makefile (from `Makefile', line 73)
+DEPS := .build_release/src/hecate/hecate_highlight.d .build_release/src/hecate/gflseg.d .build_release/src/hecate/video_parser.d .build_release/src/hecate/hecate_main.d .build_release/src/hecate/hecate_thumbnail.d
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 114)
+DIST_ALIASES := install
+# makefile (from `Makefile', line 76)
+TOOL_BINS := .build_release/src/tools/hecate
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+NPM_PACKAGES = /Users/adam/.npm-packages
+# environment
+CLICOLOR = YES
+# environment
+LANG = en_US.UTF-8
+# makefile (from `Makefile', line 70)
+TOOL_BUILD_DIR := .build_release/tools
+# environment
+VSCODE_PID = 3241
+# makefile (from `Makefile', line 84)
+TOOL_WARNS := .build_release/src/tools/hecate.o.warnings.txt
+# variable set hash-table stats:
+# Load=132/1024=13%, Rehash=0, Collisions=29/293=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777221, inode 78030822): 21 files, no impossibilities.
+# src/hecate (device 16777221, inode 80119942): No files, no impossibilities so far.
+# .build_release/src (device 16777221, inode 80120193): No files, no impossibilities so far.
+# .build_release (device 16777221, inode 80120189): No files, no impossibilities so far.
+
+# 21 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+.build_release/%.o: %.cpp | .build_release .build_release/lib .build_release/src/hecate .build_release/src/tools
+#  commands to execute (from `Makefile', line 222):
+	@ echo CXX $<
+	$(Q)$(CXX) $< $(CXXFLAGS) -c -o $@ 2> $@.$(WARNS_EXT) \
+	|| (cat $@.$(WARNS_EXT); exit 1)
+	@ cat $@.$(WARNS_EXT)
+	
+
+.build_release/tools/%: .build_release/tools/% | .build_release/tools
+#  commands to execute (from `Makefile', line 229):
+	@ $(RM) $@
+	@ ln -s $(abspath $<) $@
+	
+
+# 2 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+.build_release/src/hecate/video_parser.o.warnings.txt: .build_release/src/hecate/video_parser.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/hecate/video_parser'
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/opencv.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/hecate_main.o: src/hecate/hecate_main.cpp /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/video_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/hecate/ffmpeg_helper.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+ 
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+all: lib tools
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+
+/usr/local/include/hecate/gapstat.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/gflseg.o.warnings.txt: .build_release/src/hecate/gflseg.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/hecate/gflseg'
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/core/core.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/sort.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.PHONY: all lib tools clean install
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/hecate/hecate_thumbnail.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/lib/libhecate.a: .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o | .build_release/lib
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:47:08
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+#  commands to execute (from `Makefile', line 218):
+	@ echo AR -o $@
+	$(Q)ar rcs $@ $(OBJS)
+	
+
+/usr/local/opt/opencv@2/include/opencv2/core/version.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.build_release/src/hecate/hecate_highlight.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:00
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/usr/local/bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.build_release/src/hecate/video_parser.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:05
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate: | build
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:47:08
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 211):
+	@ mkdir -p $@
+	
+
+.build_release/src/hecate/hecate_thumbnail.o: src/hecate/hecate_thumbnail.cpp /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/video_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/hecate/cc_parser.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 12:41:18
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/.linked:
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:46:57
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 204):
+	@ mkdir -p $(BUILD_DIR)
+	@ $(RM) $(OTHER_BUILD_DIR)/.linked
+	@ $(RM) -r $(BUILD_DIR_LINK)
+	@ ln -s $(BUILD_DIR) $(BUILD_DIR_LINK)
+	@ touch $@
+	
+
+# Not a target:
+.build_release/src/hecate/gflseg.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/tools/hecate.o.warnings.txt: .build_release/src/tools/hecate.o
+#  Implicit rule search has not been done.
+ 
+#  Implicit/static pattern stem: `.build_release/src/tools/hecate'
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/hecate/hecate_highlight.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2020-08-25 06:41:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+build: .build_release/.linked
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:46:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/core/operations.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release: | build
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:46:57
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 211):
+	@ mkdir -p $@
+	
+
+/usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/usr/local/lib:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+src/hecate/video_parser.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/core/types_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/lib/libhecate.so: .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o | .build_release/lib
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 214):
+	@ echo LD -o $@
+	$(Q)$(CXX) -shared -o $@ $(OBJS) $(LINKFLAGS) $(LDFLAGS) $(DYNAMIC_FLAGS)
+	
+
+/usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/hecate_highlight.o: src/hecate/hecate_highlight.cpp /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/video_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp | .build_release .build_release/lib .build_release/src/hecate .build_release/src/tools
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `src/hecate/hecate_highlight'
+#  Last modified 2021-04-10 20:47:00
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .build_release/src/hecate/hecate_highlight.o
+# automatic
+# % := 
+# automatic
+# * := src/hecate/hecate_highlight
+# automatic
+# + := src/hecate/hecate_highlight.cpp src/hecate/hecate_highlight.cpp /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/vi 
+deo_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp
+# automatic
+# | := .build_release .build_release/lib .build_release/src/hecate .build_release/src/tools
+# automatic
+# < := src/hecate/hecate_highlight.cpp
+# automatic
+# ^ := src/hecate/hecate_highlight.cpp /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/video_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp
+# automatic
+# ? := /usr/local/include/hecate/hecate.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/time.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/include/hecate/knapsack.hpp /usr/local/include/hecate/cc_parser.hpp /usr/local/include/hecate/file_helper.hpp /usr/local/include/hecate/video_parser.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp /usr/local/include/hecate/ffmpeg_helper.hpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/25=4%
+#  commands to execute (from `Makefile', line 222):
+	@ echo CXX $<
+	$(Q)$(CXX) $< $(CXXFLAGS) -c -o $@ 2> $@.$(WARNS_EXT) \
+	|| (cat $@.$(WARNS_EXT); exit 1)
+	@ cat $@.$(WARNS_EXT)
+	
+
+/usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/core/mat.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/video_parser.o: src/hecate/video_parser.cpp /usr/local/include/hecate/video_parser.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/sort.hpp /usr/local/include/hecate/gflseg.hpp /usr/local/include/hecate/gapstat.hpp /usr/local/include/hecate/shot_range.hpp /usr/local/include/hecate/hist_opencv.hpp /usr/local/include/hecate/image_metrics.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+lib: .build_release/lib/libhecate.a .build_release/lib/libhecate.so
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/11=0%
+
+# Not a target:
+src/hecate/gflseg.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/hist_opencv.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/hecate_main.o.warnings.txt: .build_release/src/hecate/hecate_main.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/hecate/hecate_main'
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+.build_release/src/hecate/gflseg.o: src/hecate/gflseg.cpp /usr/local/include/hecate/gflseg.hpp /usr/local/opt/opencv@2/include/opencv2/opencv.hpp /usr/local/opt/opencv@2/include/opencv2/opencv_modules.hpp /usr/local/opt/opencv@2/include/opencv2/core/core_c.h /usr/local/opt/opencv@2/include/opencv2/core/types_c.h /usr/local/opt/opencv@2/include/opencv2/core/core.hpp /usr/local/opt/opencv@2/include/opencv2/core/version.hpp /usr/local/opt/opencv@2/include/opencv2/core/operations.hpp /usr/local/opt/opencv@2/include/opencv2/core/mat.hpp /usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp /usr/local/opt/opencv@2/include/opencv2/flann/defines.h /usr/local/opt/opencv@2/include/opencv2/flann/config.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/types_c.h /usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo.hpp /usr/local/opt/opencv@2/include/opencv2/photo/photo_c.h /usr/local/opt/opencv@2/include/opencv2/video/video.hpp /usr/local/opt/opencv@2/include/opencv2/video/tracking.hpp /usr/local/opt/opencv@2/include/opencv2/video/background_segm.hpp /usr/local/opt/opencv@2/include/opencv2/features2d/features2d.hpp /usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp /usr/local/opt/opencv@2/include/opencv2/calib3d/calib3d.hpp /usr/local/opt/opencv@2/include/opencv2/core/affine.hpp /usr/local/opt/opencv@2/include/opencv2/ml/ml.hpp /usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h /usr/local/opt/opencv@2/include/opencv2/highgui/highgui.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/contrib.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp /usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp /usr/local/include/hecate/sort.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/highgui/highgui_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/image_metrics.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+Makefile.config:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 13:07:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/core/core_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/hecate.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/time.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 238):
+	@- $(RM) -rf $(ALL_BUILD_DIRS)
+	@- $(RM) -rf $(OTHER_BUILD_DIR)
+	@- $(RM) -rf $(BUILD_DIR_LINK)
+	
+
+.build_release/src/tools: | build
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 211):
+	@ mkdir -p $@
+	
+
+/usr/local/include/hecate/knapsack.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/flann/config.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/contrib/openfabmap.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/flann/defines.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/core/affine.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/hecate_thumbnail.o.warnings.txt: .build_release/src/hecate/hecate_thumbnail.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/hecate/hecate_thumbnail'
+#  Modification time never checked.
+#  File has not been updated.
+
+install: /usr/local
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.build_release/src/hecate/hecate_main.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:06
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/lib: | build
+#  Implicit rule search has not been done.
+#  Last modified 2021-04-10 20:47:08
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 211):
+	@ mkdir -p $@
+	
+
+.build_release/src/tools/hecate: .build_release/src/tools/hecate.o | .build_release/lib/libhecate.so
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/tools/hecate'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 233):
+ 
+	@ echo CXX/LD -o $@
+	$(Q)$(CXX) $< -o $@ $(LINKFLAGS) $(LDFLAGS) -l$(PROJECT)\
+	-Wl,-rpath,$(ORIGIN)/../lib
+	
+
+/usr/local/include/hecate/video_parser.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/video/video.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.build_release/src/tools/hecate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/flann/miniflann.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/file_helper.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/contrib/retina.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/gflseg.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/opt/opencv@2/include/opencv2/objdetect/objdetect.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.build_release/src/hecate/hecate_thumbnail.d:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:08
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/hecate/shot_range.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-04-10 20:47:09
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tools: .build_release/src/tools/hecate
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+src/hecate/hecate_main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/opt/opencv@2/include/opencv2/imgproc/imgproc_c.h:
+#  Implicit rule search has been done.
+#  Last modified 2018-07-02 14:41:56
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+.build_release/src/hecate/hecate_highlight.o.warnings.txt: .build_release/src/hecate/hecate_highlight.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `.build_release/src/hecate/hecate_highlight'
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local: all | /usr/local/bin /usr/local/lib
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 245):
+	# add include
+	cp -r include $(DISTRIBUTE_DIR)/
+	# add tool binaries
+	cp $(TOOL_BINS) $(DISTRIBUTE_DIR)/bin
+	# add libraries
+	cp $(STATIC_NAME) $(DISTRIBUTE_DIR)/lib
+	install -m 644 $(DYNAMIC_NAME) $(DISTRIBUTE_DIR)/lib
+	
+
+# files hash-table stats:
+# Load=86/1024=8%, Rehash=0, Collisions=28/503=6%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 7
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3865 / max = 3865 / min = 3865 / avg = 3865
+
+# Finished Make data base on Sun Apr 11 12:55:57 2021
+
+ 

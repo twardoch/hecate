@@ -1,0 +1,48 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/adam/Developer/vcs/github.twardoch/pub/hecate'
+mkdir -p .build_release
+ 
+rm -f .build_debug/.linked
+rm -f -r build
+ln -s .build_release build
+touch .build_release/.linked
+mkdir -p .build_release
+mkdir -p .build_release/lib
+mkdir -p .build_release/src/hecate
+mkdir -p .build_release/src/tools
+ 
+echo CXX src/hecate/hecate_highlight.cpp
+/usr/bin/clang++ src/hecate/hecate_highlight.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/hecate/hecate_highlight.o 2> .build_release/src/hecate/hecate_highlight.o.warnings.txt \
+		|| (cat .build_release/src/hecate/hecate_highlight.o.warnings.txt; exit 1)
+cat .build_release/src/hecate/hecate_highlight.o.warnings.txt
+echo CXX src/hecate/gflseg.cpp
+/usr/bin/clang++ src/hecate/gflseg.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/hecate/gflseg.o 2> .build_release/src/hecate/gflseg.o.warnings.txt \
+		|| (cat .build_release/src/hecate/gflseg.o.warnings.txt; exit 1)
+cat .build_release/src/hecate/gflseg.o.warnings.txt
+ 
+echo CXX src/hecate/video_parser.cpp
+/usr/bin/clang++ src/hecate/video_parser.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/hecate/video_parser.o 2> .build_release/src/hecate/video_parser.o.warnings.txt \
+		|| (cat .build_release/src/hecate/video_parser.o.warnings.txt; exit 1)
+cat .build_release/src/hecate/video_parser.o.warnings.txt
+echo CXX src/hecate/hecate_main.cpp
+/usr/bin/clang++ src/hecate/hecate_main.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/hecate/hecate_main.o 2> .build_release/src/hecate/hecate_main.o.warnings.txt \
+		|| (cat .build_release/src/hecate/hecate_main.o.warnings.txt; exit 1)
+cat .build_release/src/hecate/hecate_main.o.warnings.txt
+echo CXX src/hecate/hecate_thumbnail.cpp
+/usr/bin/clang++ src/hecate/hecate_thumbnail.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/hecate/hecate_thumbnail.o 2> .build_release/src/hecate/hecate_thumbnail.o.warnings.txt \
+		|| (cat .build_release/src/hecate/hecate_thumbnail.o.warnings.txt; exit 1)
+cat .build_release/src/hecate/hecate_thumbnail.o.warnings.txt
+echo AR -o .build_release/lib/libhecate.a
+ar rcs .build_release/lib/libhecate.a .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o
+echo LD -o .build_release/lib/libhecate.so
+/usr/bin/clang++ -shared -o .build_release/lib/libhecate.so .build_release/src/hecate/hecate_highlight.o .build_release/src/hecate/gflseg.o .build_release/src/hecate/video_parser.o .build_release/src/hecate/hecate_main.o .build_release/src/hecate/hecate_thumbnail.o -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -L/usr/local/opt/opencv@2/lib -L/usr/local/lib -L.build_release/lib  -lopencv_core -lopencv_highgui -lopencv_imgproc -install_name @rpath/libhecate.so
+ 
+echo CXX src/tools/hecate.cpp
+/usr/bin/clang++ src/tools/hecate.cpp -MMD -MP -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -c -o .build_release/src/tools/hecate.o 2> .build_release/src/tools/hecate.o.warnings.txt \
+		|| (cat .build_release/src/tools/hecate.o.warnings.txt; exit 1)
+cat .build_release/src/tools/hecate.o.warnings.txt
+echo CXX/LD -o .build_release/src/tools/hecate
+/usr/bin/clang++ .build_release/src/tools/hecate.o -o .build_release/src/tools/hecate -pthread -fPIC -std=c++0x -DNDEBUG -O2 -I/usr/local/opt/opencv@2/include -I/usr/local/include -I.build_release/src -I./include -Wall -Wno-sign-compare -L/usr/local/opt/opencv@2/lib -L/usr/local/lib -L.build_release/lib  -lopencv_core -lopencv_highgui -lopencv_imgproc -lhecate\
+		-Wl,-rpath,@loader_path/../lib
+make: Leaving directory `/Users/adam/Developer/vcs/github.twardoch/pub/hecate'
+ 
