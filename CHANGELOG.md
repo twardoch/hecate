@@ -2,16 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased] - 2025-06-25
+## [Unreleased] - 2026-07-05
 
 ### Added
-- Build artifacts and compiled binaries in `.build_release/` directory
-- Development configuration files (`.vscode/`, `.dccache`)
-- Automated codebase snapshot generation with repomix
+- `.gitignore` covering build output (`build/`, `.build_release/`, `distribute/`, `*.o`, `*.d`), editor/OS cruft (`.DS_Store`, `.vscode/`, `.dccache`), generated `output/`, and the `llms.txt` snapshot.
+- Project icon at `docs/assets/icon.png`.
 
 ### Changed
-- Multiple auto-commits to save local changes
-- Added various build artifacts and temporary files
+- Rewrote README following the house style guide: clear fork provenance pointing at `yahoo/hecate`, a dedicated macOS/Homebrew build section, and the clone URL corrected to this fork.
 
 ## [v1.2.0] - 2022-10-04
 

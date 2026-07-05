@@ -1,0 +1,18 @@
+# Build output
+/build
+/.build_release/
+/distribute/
+*.o
+*.d
+null.d
+
+# Editor / OS cruft
+.DS_Store
+.vscode/
+.dccache
+
+# Generated program output
+/output/
+
+# Tooling snapshots
+llms.txt

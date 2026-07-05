@@ -1,42 +1,52 @@
 # HECATE
-Hecate [hek-uh-tee] is a video processing library that auto-magically generates thumbnails, animated GIFs, and video summaries from videos. This library is developed and maintained by Yahoo Research, New York.
 
-The source code is Copyright 2016 Yahoo Inc. and is licensed under the terms of the Apache 2.0 License. See the [LICENSE](https://github.com/yahoo/hecate/blob/master/LICENSE) in the project root file for terms.
+Hecate [hek-uh-tee] watches a video so you don't have to. Point it at a file and it hands back the frames worth keeping: thumbnails, animated GIFs, and a short summary cut — chosen by computer vision, not by luck.
 
-The technology behind this library is based on our research work. If you find this library useful in your work, we ask you to cite our research paper:
+> **Provenance.** This is a fork of [yahoo/hecate](https://github.com/yahoo/hecate), the video-processing library from Yahoo Research, New York. The code is Yahoo's; this fork keeps it buildable on current toolchains and sands down the rough edges of getting it running. Upstream is Copyright 2016 Yahoo Inc., licensed under the [Apache 2.0 License](LICENSE).
+
+The technique comes from a research paper. If Hecate helps your work, cite it:
 ```
 "To Click or Not To Click: Automatic Selection of Beautiful Thumbnails from Videos."
 Yale Song, Miriam Redi, Jordi Vallmitjana, Alejandro Jaimes, 
 Proceedings of the 25th ACM International on Conference on Information and Knowledge Management, CIKM 2016
 ```
 
-## Installation
-Hecate has one dependency: [OpenCV library](https://github.com/opencv/opencv) with an [FFMPEG](https://github.com/FFmpeg/FFmpeg) support. You will need to install the library properly before trying out Hecate!
+## Installing
 
-Once you install the dependenct library correctly, follow the instruction below:
+Hecate needs one thing before it will build: [OpenCV](https://github.com/opencv/opencv) compiled with [FFmpeg](https://github.com/FFmpeg/FFmpeg) support. Install that first — nothing else works without it.
+
+### macOS (Homebrew)
+
 ```
-$ git clone https://github.com/yahoo/hecate.git
+$ brew install opencv ffmpeg
+$ git clone https://github.com/twardoch/hecate.git
 $ cd hecate
 $ vim Makefile.config
- - Set INCLUDE_DIRS and LIBRARY_DIRS to where your 
-   opencv library is installed. Usually under /usr/local.
- - If your OpenCV version is 2.4.x, comment out the line 
-   OPENCV_VERSION := 3
- - Save and exit
+ - Set INCLUDE_DIRS and LIBRARY_DIRS to your OpenCV prefix
+   (run `brew --prefix opencv` to find it).
+ - Modern Homebrew ships OpenCV 4.x. Leave OPENCV_VERSION := 3
+   commented out only if your build fails against the 3.x API.
 $ make all
 $ make distribute
 ```
 
-Once you've successfully compiled hecate, it will generate a binary executable under `distribute/bin/`. Run the following command to check if everything works properly:
+### Linux / from source
+
+```
+$ git clone https://github.com/twardoch/hecate.git
+$ cd hecate
+$ vim Makefile.config
+ - Set INCLUDE_DIRS and LIBRARY_DIRS to where OpenCV lives
+   (usually /usr/local).
+ - If your OpenCV is 2.4.x, comment out OPENCV_VERSION := 3.
+$ make all
+$ make distribute
+```
+
+A successful build drops a binary at `distribute/bin/hecate`. Run it with no arguments to confirm it works and to see every option:
 ```
 $ ./distribute/bin/hecate
 
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
- HECATE Copyright 2016 Yahoo Inc.
-   Licensed under the terms of the Apache 2.0 License.
-   Developed by : Yale Song (yalesong@yahoo-inc.com)
-   Built on  : 11:46:03 Aug 11 2016
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 USAGE: hecate -i infile [options]
 
   -i  --in_video      (string)    Input video file
@@ -132,6 +142,10 @@ We included the video summary generated on our dev machine here:
 [https://github.com/yahoo/hecate/blob/master/examples/video_sum.mp4](https://github.com/yahoo/hecate/blob/master/examples/video_sum.mp4)
 
 
-## Developer
+## Docker
 
-Yale Song: [github](https://github.com/yalesong), [website](http://people.csail.mit.edu/yalesong)
+A build environment lives in `docker/` (Debian, OpenCV 3.3.1, FFmpeg). See [docker/README.md](docker/README.md).
+
+## Credits
+
+Original author: Yale Song ([github](https://github.com/yalesong), [website](http://people.csail.mit.edu/yalesong)) and Yahoo Research. This fork is maintained by [Adam Twardoch](https://github.com/twardoch).
